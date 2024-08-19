@@ -18,3 +18,65 @@ h1{
 #outer{
     font-size: 25px;
 }
+/*Create a div with height & width of 100px.
+Set it's background color to green & the border radius to 50%*/
+#box_model{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border-radius: 50%;
+}
+/*Usually bydefault padding & margin are set to 0*/
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+#navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+}
+#button{
+    background-color:yellow;
+}
+#logo{
+    color: yellow;
+    font-size: 25px;
+}
+a{
+    margin-right: 200px;
+    text-decoration: none;
+}
+#Display
+{
+    background-color: darksalmon;
+    display:inline;
+}
+#Dis{
+    display: block;
+}
+#box1{
+    background-color: darkgoldenrod;
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    display:inline;
+}
+#box2{
+    background-color: darkgrey;
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    display:inline;
+}
+#box3{
+    background-color: peachpuff;
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    display:inline; /*When we use this top & bottum of margin will not be applied*/
+}
